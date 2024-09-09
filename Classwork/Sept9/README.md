@@ -5,6 +5,18 @@
 1. Clone this repository.
 2. Open the 'index.html' file in your browser.
 
+# Example Code
+
+```typescript
+
+```
+
+
+## Contributors
+
+
+# Notes:
+
 Put your essay in an md file.
 Two things that you don't want tracked in your GitHub:
 anything that you didn't create 
@@ -25,11 +37,11 @@ If you delete the .(filetype) in the gitignore, the files won't be uploaded when
 
 Command to untrack files: git rm qqq.icloud
 
-# Example Code
+Repo for classwork: put it about you.
 
-```typescript
+Repo for final: Describe the application that you will be making for the final.
 
-```
+CDN: Content Delivery Network
 
+The computer uses cache to load webpages that you frequently visit quicker. If you disable cache it will have to re-load everything (it uses memory/disk cache). CTRL F5 allows you to load the webpage without using cache.
 
-## Contributors
