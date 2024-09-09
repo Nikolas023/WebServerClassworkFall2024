@@ -45,3 +45,9 @@ CDN: Content Delivery Network
 
 The computer uses cache to load webpages that you frequently visit quicker. If you disable cache it will have to re-load everything (it uses memory/disk cache). CTRL F5 allows you to load the webpage without using cache.
 
+Use nslookup to lookup dns info. 
+
+Ex: nslookup google.com
+
+CDNs allow you to reference a server rather than using your local files. Upload stuff to cdns like cloudfare.
+
