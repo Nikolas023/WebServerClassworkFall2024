@@ -58,3 +58,43 @@ Delete the id under navbar-menu
 In the navbar is-info class:
     in the a tag after the bounded class, add:
     @click="isOpen = !isOpen"
+
+
+
+
+File based routing: https://github.com/posva/unplugin-vue-router
+
+pnpm i -D unplugin-vue-router
+
+run this in the client folder
+
+Then open up Vite on the website, 
+
+look for vite.config.ts.
+
+then follow the documentation on the installation.
+
+Plugin order actually matters.
+
+in that same .ts file
+
+copy the import statement and paste it into the file.
+
+go to tsconfig.app.json
+
+import the routes.
+
+Go to routerindex.ts
+
+copy the first import statement 
+
+in index.ts: delete the array under routes in the const router
+
+rename views folder to pages
+
+change HomeView to index.vue
+
+There are some errors that will be thrown because we break the naming convention.
+
+
+Under the pages folder, create a vue file called Jobs.vue (in his example).
