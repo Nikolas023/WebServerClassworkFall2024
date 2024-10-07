@@ -98,3 +98,10 @@ There are some errors that will be thrown because we break the naming convention
 
 
 Under the pages folder, create a vue file called Jobs.vue (in his example).
+
+
+in Navbar.vue get rid of all as and turn it into a RouterLink.
+
+Write it like this: RouterLink to="/jobs" or to whatever webpage you want it to go to.
+
+Adding active-class would allow you to navigate to pages on the dropdown menu.
